@@ -69,6 +69,8 @@ html {
     font-size: 30px;
 }
 
+
+
 .sidebar a {
     text-decoration: none;
     color: #ff7f11;
@@ -86,7 +88,7 @@ html {
 
 
 .sidebar a:hover {
-    color: #e0690c;
+    color: #fdf1e8;
 }
 
 /* Grid de Secciones */
