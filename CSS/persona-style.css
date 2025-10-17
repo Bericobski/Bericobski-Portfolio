@@ -328,12 +328,22 @@ a {
     gap: 15px;
 }
 
+/* Override the grid for video items only */
+.gallery-grid:has(video) {
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .gallery-item {
     width: 100%; 
     height: auto;
     
 }
 
+.gallery-item-video {
+   width: 100%; 
+    height: auto;
+    
+}
 
 .gallery-item img {
     width: 100%;
